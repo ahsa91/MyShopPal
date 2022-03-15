@@ -9,5 +9,12 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorThemePink">#ED2173</color>
+    <color name="colorThemeOrange">#F4442d</color>
+
+    <color name="colorPrimaryText">#222934</color>
+    <color name="colorSecondaryText">#989898</color>
+    <!--END-->
+
+    <color name="colorWhite">#FFFFFF</color>
 </resources>
