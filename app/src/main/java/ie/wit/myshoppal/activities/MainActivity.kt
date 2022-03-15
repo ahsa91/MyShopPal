@@ -1,10 +1,8 @@
-package ie.wit.myshoppal
+package ie.wit.myshoppal.activities
 
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.WindowInsets
-import android.view.WindowManager
+import ie.wit.myshoppal.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

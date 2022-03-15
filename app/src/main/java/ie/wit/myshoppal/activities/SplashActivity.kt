@@ -1,4 +1,4 @@
-package ie.wit.myshoppal
+package ie.wit.myshoppal.activities
 
 import android.content.Intent
 import android.os.Build
@@ -7,6 +7,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.WindowInsets
 import android.view.WindowManager
+import ie.wit.myshoppal.R
+
 
 @Suppress("DEPRECATION")
 class SplashActivity : AppCompatActivity() {
@@ -26,7 +28,7 @@ class SplashActivity : AppCompatActivity() {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN
             )
         }
-
+        //delay splashcreen for whatever amount of time i  need
         Handler().postDelayed(
             {
                 // Launch the Main Activity
@@ -35,6 +37,9 @@ class SplashActivity : AppCompatActivity() {
             },
             1000
         )
+
+
+
 
     }
 }
