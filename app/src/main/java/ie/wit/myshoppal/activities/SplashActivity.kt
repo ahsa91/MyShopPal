@@ -19,7 +19,6 @@ class SplashActivity : AppCompatActivity() {
 
         //deprecated code to make splash screen as full screen activity
         //source https://stackoverflow.com/questions/62835053/how-to-set-fullscreen-in-android-r
-        @Suppress("DEPRECATION")
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             window.insetsController?.hide(WindowInsets.Type.statusBars())
         } else {
@@ -32,7 +31,7 @@ class SplashActivity : AppCompatActivity() {
         Handler().postDelayed(
             {
                 // Launch the Main Activity
-                startActivity(Intent(this@SplashActivity, MainActivity::class.java))//render mainactivity
+                startActivity(Intent(this@SplashActivity, LoginActivity::class.java))//render mainactivity
                 finish() // finish activity action
             },
             1000
